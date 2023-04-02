@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "YOUR KEY HERE"
 model_engine = "gpt-3.5-turbo"
 
 def get_question():
