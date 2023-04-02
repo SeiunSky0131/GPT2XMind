@@ -1,0 +1,11 @@
+Pros of GBDT:
+
+1. High accuracy: GBDT can produce highly accurate results for both classification and regression problems, especially when using large and complex datasets.
+2. Handles both numerical and categorical features: GBDT can handle both numerical and categorical features, making it versatile for various types of data.
+3. Ensembles weak learners: GBDT is an ensemble algorithm that combines multiple weak learners to produce a strong model capable of capturing complex non-linear interactions between features.
+
+Cons of GBDT:
+
+1. Prone to overfitting: GBDT is prone to overfitting, especially when using a large number of weak learners or when the data is noisy.
+2. Time-consuming: GBDT can be time-consuming to train, especially when using large datasets or when optimizing hyperparameters.
+3. Resource-intensive: GBDT requires significant computational resources, such as RAM and processing power, to train and deploy models.

@@ -1,7 +1,6 @@
 import openai
-import os
 
-openai.api_key = "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"
+openai.api_key = "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"
 model_engine = "gpt-3.5-turbo"
 
 def get_question():
@@ -11,11 +10,10 @@ def get_question():
     text = input("What is your question?\n")
     return text
 
-def get_answer():
+def get_answer(question: str):
     '''
     Get the answer from the OpenAI API. Return the answer as a string.
     '''
-    question = get_question()
     
     response = openai.ChatCompletion.create(
         model = model_engine,
