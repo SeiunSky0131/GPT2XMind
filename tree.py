@@ -28,6 +28,10 @@ class treeNode:
     def get_parent(self):
         return self.parent
     
+    def set_name(self, name):
+        self.name = name
+        return
+    
 class Tree:
     def __init__(self, data: dict):
         self.sheetname = data['title']

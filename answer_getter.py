@@ -7,14 +7,14 @@ def get_question():
     '''
     Get the question from the user. Return the question as a string.
     '''
-    text = input("What is your question?\n")
+    text = input("----------What is your question?----------\n")
     return text
 
 def get_answer(question: str):
     '''
     Get the answer from the OpenAI API. Return the answer as a string.
     '''
-    
+    print("----------Please wait for a moment.----------\n")
     response = openai.ChatCompletion.create(
         model = model_engine,
         messages = [
